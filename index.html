@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frogvent</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../assets/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="./index.html">Frogvent Calendar</a>
+    </div>
+
+    <div class="container">
+        <div class="calendar">
+            <div class="row">
+                <button type="button" class="door" id="day14" disabled>14</button>
+                <button type="button" class="door" id="day23" disabled>23</button>
+                <button type="button" class="door" id="day6" disabled>6</button>
+                <button type="button" class="door" id="day11" disabled>11</button>
+            </div>
+            <div class="row">
+                <button type="button" class="door" id="day12" disabled>12</button>
+                <button type="button" class="door" id="day8" disabled>8</button>
+                <button type="button" class="door" id="day21" disabled>21</button>
+                <button type="button" class="door" id="day18" disabled>18</button>
+            </div>
+            <div class="row">
+                <button type="button" class="door" id="day15" disabled>15</button>
+                <button type="button" class="door" id="day3" disabled>3</button>
+                <button type="button" class="door" id="day24" disabled>24</button>
+                <button type="button" class="door" id="day2" disabled>2</button>
+            </div>
+            <div class="row">
+                <button type="button" class="door" id="day13" disabled>13</button>
+                <button type="button" class="door" id="day1" disabled>1</button>
+                <button type="button" class="door" id="day20" disabled>20</button>
+                <button type="button" class="door" id="day10" disabled>10</button>
+            </div>
+            <div class="row">
+                <button type="button" class="door" id="day17" disabled>17</button>
+                <button type="button" class="door" id="day7" disabled>7</button>
+                <button type="button" class="door" id="day22" disabled>22</button>
+                <button type="button" class="door" id="day4" disabled>4</button>
+            </div>
+            <div class="row">
+                <button type="button" class="door" id="day9" disabled>9</button>
+                <button type="button" class="door" id="day19" disabled>19</button>
+                <button type="button" class="door" id="day16" disabled>16</button>
+                <button type="button" class="door" id="day5" disabled>5</button>
+            </div>
+        </div>
+        <div id="imageContainer" class="hidden">
+            <img id="surpriseImage1" src="./assets/images/Allobates_femoralis.jpg" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage2" src="./assets/images/Atelopus_zeteki_2_-_Buffalo_Zoo.jpg" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage3" src="./assets/images/Crinia_signifera.jpg" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage4" src="./assets/images/Heleophryne_regis_imported_from_iNaturalist_photo_15137443_on_4_June_2019.jpg" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage5" src="./assets/images/Phyllobates-terribilis.jpg" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage6" src="./assets/images/Rzekotka_kostarykanska_Smilisca_phaeota_cyanosticta_RB1.jpg" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage7" src="./assets/images/Uperoleia_mimula09.jpg" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage8" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage9" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage10" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage11" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage12" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage13" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage14" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage15" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage16" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage17" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage18" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage19" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage20" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage21" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage22" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage23" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+            <img id="surpriseImage24" src="./assets/images/logo_black_transparent_ergebnis.webp" alt="Door Content" width="400" class="hidden">
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="./assets/images/logo_black_transparent_ergebnis.webp" width="200" alt="logo" onclick="frog()">
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
