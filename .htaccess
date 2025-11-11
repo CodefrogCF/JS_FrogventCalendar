@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://frogfinances.tech/$1 [L,R=301]
+Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-Content-Type-Options "nosniff"
+Header set Referrer-Policy "same-origin"
+Header set Permissions-Policy "microphone=(), geolocation=(), camera=()"
+Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; object-src 'none';"
