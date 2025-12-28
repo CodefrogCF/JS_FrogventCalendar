@@ -33,19 +33,14 @@ button:hover.active {
     background-color: #28a745;
 }
 
-#imageContainer {
-    margin-top: 5px;
-    margin-left: 20px;
-}
-
 .hidden {
     display: none;
 }
 
-#surpriseImage {
+.surpriseImage {
     max-width: 300px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 .navbar {
@@ -89,4 +84,28 @@ button:hover.active {
     width: 100vw;
     z-index: 10;
     background-color: rgb(88, 88, 88);
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        position: absolute;
+    }
+    .calendar {
+        margin-top: 10vh;
+    }
+    .surpriseImage {
+        margin-left: 0;
+        margin-top: 0;
+        width: 40vw;
+    }
+    button {
+    margin: 5px;
+    font-size: 1.2em;
+    width: 12vw;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+}
 }

@@ -18,6 +18,7 @@ for (let day = 1; day <= 24; day++) {
         if (image) {
             image.classList.remove("hidden");
             imageContainer.classList.remove("hidden");
+            image.classList.add("surpriseImage");
         }
     });
 }
