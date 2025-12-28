@@ -92,9 +92,6 @@ button:hover.active {
         flex-direction: column;
         position: absolute;
     }
-    .calendar {
-        margin-top: 10vh;
-    }
     .surpriseImage {
         margin-left: 0;
         margin-top: 0;
